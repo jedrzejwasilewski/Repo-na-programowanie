@@ -1,7 +1,7 @@
 # Repo-na-programowanie
 zadanko
 # #zadanie4
-lista=[1,2,3,4,5,6.7.8.9]
+lista=[1,2,3,4,5,6,7,8,9]
 def dlugosc(lista):
     if len(lista)>0:
         return 1+dlugosc(lista[1:])
